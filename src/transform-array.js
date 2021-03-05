@@ -1,8 +1,7 @@
 const CustomError = require("../extensions/custom-error");
 
 module.exports = function transform(arr) {
-	 throw new CustomError('Not implemented');
-/* let result = []
+let result = []
   	if (Array.isArray(arr)){
 	  	for(let i = 0; i<arr.length; i++){
 	  		if(arr[i]=='--double-next'){
@@ -28,5 +27,5 @@ module.exports = function transform(arr) {
 	  	}return result
   	} else{
   		throw new Error
-  	}*/
+  	}
 };
